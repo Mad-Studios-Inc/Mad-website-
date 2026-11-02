@@ -1,0 +1,44 @@
+.header {
+    display: grid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 85px;
+    background-color: blue;
+    grid-template-columns: 2fr 5fr 2fr;
+    justify-content: space-between;
+}
+.left_side {
+    background-color: rgb(116, 116, 216);
+}
+.middle_side {
+    background-color: rgb(3, 53, 53);
+    display: flex;
+}
+.search_bar {
+   align-items: center;
+   justify-content: center;
+   height: 25px;
+   margin-top: 20px;
+   margin-left: 20px;
+   flex: 1;
+   max-width: 650px;
+   padding-bottom: 7px;
+   padding-top: 7px;
+   padding-left: 10px;
+   background-color: black;
+   border: 1px solid rgb(255, 245, 174);
+   border-radius: 12px;
+   color: rgb(255, 245, 174);
+   font-size: 14px;
+   font-family: 'Poppins', Arial, sans-serif;
+}
+.search_bar::placeholder {
+    color: rgb(255, 245, 174);
+    font-size: 14px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.right_side {
+    background-color: blueviolet;
+}
